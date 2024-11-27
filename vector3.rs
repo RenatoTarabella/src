@@ -3,6 +3,8 @@ use std::ops::{Add, Sub, Mul, Div, AddAssign, SubAssign, MulAssign, DivAssign, N
 use std::hash::{Hash, Hasher};
 use rand::Rng;
 
+// prova
+
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub struct Vector3 {
     pub x: f32,
