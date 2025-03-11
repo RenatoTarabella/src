@@ -2,7 +2,7 @@ use crate::vector3::Vector3;
 use crate::baseray::BaseRay;
 use crate::baseobject::BaseObject;
 use rand::Rng;
-
+// test 
 pub struct BaseCamera {
     pub position: Vector3,
     pub target: Vector3,
