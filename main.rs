@@ -40,8 +40,8 @@ use crate::baseray::BaseRay;
 use rayon::prelude::*;
 // use std::sync::Arc;
 
-const SCREEN_WIDTH: u32 = 640;
-const SCREEN_HEIGHT: u32 = 640;
+const SCREEN_WIDTH: u32 = 1080;
+const SCREEN_HEIGHT: u32 = 1080;
 
 fn main() -> iced::Result {
     RustRender::run(Settings::default())
